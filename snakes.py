@@ -211,7 +211,23 @@ def generate_dungeon(current_level):
         room_height = random.randint(3, 5)
         room_x = random.randint(1, GRID_WIDTH - room_width - 1)
         room_y = random.randint(1, GRID_HEIGHT - room_height - 1)
-        
+
+
+        # colidiu = False
+ 
+        # for other_x, other_y, other_w, other_h in rooms_list:
+        #     # Verificamos se há separação (os 4 casos de segurança)
+        #    separada_por_x = (room_x + room_width < other_x) or (room_x > other_x + other_w)
+        #    separada_por_y = (room_y + room_height < other_y) or (room_y > other_y + other_h)
+
+        #   if not (separada_por_x or separada_por_y):
+        #      colidiu = True
+        #      break 
+        # if colidiu:
+        #     continue
+
+
+        # alternativa melhor para o codigo acima          
         if any(not (room_x + room_width < other_x or room_x > other_x + other_w or 
                     room_y + room_height < other_y or room_y > other_y + other_h) 
                for other_x, other_y, other_w, other_h in rooms_list): 
