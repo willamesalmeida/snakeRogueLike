@@ -7,7 +7,7 @@ GRID_WIDTH = 20
 GRID_HEIGHT = 15
 WIDTH = TILE_SIZE * GRID_WIDTH
 HEIGHT = TILE_SIZE * GRID_HEIGHT
-TITLE = "Snake Action Dungeon"
+TITLE = "Snake Dungeon Crowler"
 
 # stado do jogo
 hero_segments = []
