@@ -2,7 +2,7 @@
 
 Um jogo de exploração de masmorras procedural desenvolvido com **Python** e **Pygame Zero**.  
 O projeto combina a mecânica clássica de movimentação da *“cobrinha”* com a exploração de mapas gerados aleatoriamente, onde o jogador deve encontrar a saída enquanto sobrevive a inimigos rítmicos.
-![Gameplay do Snake Dungeon Crawler](assets/gameplay.gif)
+![Gameplay do Snake RogueLike](https://raw.githubusercontent.com/willamesalmeida/snakeRogueLike/main/images/gameplay.gif)
 
 ---
 
