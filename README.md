@@ -62,7 +62,7 @@ O movimento rítmico é gerenciado pelo relógio interno:
 ### 3. Gerenciamento de Estados e Input
 
 - Botão Play 
-- Utiliza button_play.collidepoint(pos) para detectar cliques do mouse no menu, onde pos representa as coordenadas (x, y) do cursor.
+- Utiliza **button_play.collidepoint(pos)** para detectar cliques do mouse no menu, onde pos representa as coordenadas (x, y) do cursor.
 
 - Reset com Space
 - Implementação da tecla Espaço (keys.SPACE) para reiniciar o jogo instantaneamente após um Game Over ou durante o menu, limpando as listas e regenerando o ambiente.
