@@ -53,17 +53,16 @@ Os inimigos são posicionados via um loop `while True` que valida três condiç�
 
 O movimento rítmico é gerenciado pelo relógio interno:
 
-```python
-# Os inimigos agem a cada 0.6 segundos, independentemente do FPS do jogo
-clock.schedule_interval(update_enemies, 0.6)```
+# O movimento rítmico é gerenciado pelo relógio interno do Pygame Zero:
+clock.schedule_interval(update_enemies, 0.6)
 
-3. Gerenciamento de Estados e Input
+### 3. Gerenciamento de Estados e Input
 
-Botão Play
-Utiliza button_play.collidepoint(pos) para detectar cliques do mouse no menu, onde pos representa as coordenadas (x, y) do cursor.
+- Botão Play 
+- **Utiliza button_play.collidepoint(pos) para detectar cliques do mouse no menu, onde pos representa as coordenadas (x, y) do cursor.
 
-Reset com Space
-Implementação da tecla Espaço (keys.SPACE) para reiniciar o jogo instantaneamente após um Game Over ou durante o menu, limpando as listas e regenerando o ambiente.
+- Reset com Space
+- **Implementação da tecla Espaço (keys.SPACE) para reiniciar o jogo instantaneamente após um Game Over ou durante o menu, limpando as listas e regenerando o ambiente.
 
 | Comando           | Ação                                   |
 | ----------------- | -------------------------------------- |
@@ -73,27 +72,27 @@ Implementação da tecla Espaço (keys.SPACE) para reiniciar o jogo instantaneam
 
 📦Como rodar o projeto
 
-Certifique-se de ter o Python instalado.
+- Certifique-se de ter o Python instalado.
 
-Instale a biblioteca Pygame Zero:
+- Instale a biblioteca Pygame Zero:
 
-pip install pgzero
-
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/snake-dungeon-crawler.git
+- pip install pgzero
 
 
-Execute o jogo:
+- Clone este repositório:
 
-pgzrun nome_do_seu_arquivo.py
+- git clone https://github.com/seu-usuario/snake-dungeon-crawler.git
+
+
+## 4. Execute o jogo:
+
+- pgzrun nome_do_seu_arquivo.py
 
 📝 Aprendizados Técnicos
 
-Manipulação de coordenadas e matrizes para criação de conteúdo procedural.
+- Manipulação de coordenadas e matrizes para criação de conteúdo procedural.
 
-Uso de sistemas de agendamento de tarefas (clocks) para eventos rítmicos.
+- Uso de sistemas de agendamento de tarefas (clocks) para eventos rítmicos.
 
-Lógica de colisões em grades e tratamento de eventos de teclado e mouse.
+- Lógica de colisões em grades e tratamento de eventos de teclado e mouse.
 
