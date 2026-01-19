@@ -57,7 +57,7 @@ Os inimigos são posicionados via um loop `while True` que valida três condiç�
 O movimento rítmico é gerenciado pelo relógio interno:
 
 # O movimento rítmico é gerenciado pelo relógio interno do Pygame Zero:
-clock.schedule_interval(update_enemies, 0.6)
+**clock.schedule_interval(update_enemies, 0.6)**
 
 ### 3. Gerenciamento de Estados e Input
 
@@ -84,12 +84,12 @@ clock.schedule_interval(update_enemies, 0.6)
 
 - Clone este repositório:
 
-- git clone https://github.com/seu-usuario/snake-dungeon-crawler.git
+- **git clone https://github.com/seu-usuario/snake-dungeon-crawler.git**
 
 
 ## 4. Execute o jogo:
 
-- pgzrun nome_do_seu_arquivo.py
+- **pgzrun nome_do_seu_arquivo.py**
 
 📝 Aprendizados Técnicos
 
